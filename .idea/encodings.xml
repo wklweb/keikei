@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/keikei-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-netty/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-netty/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/keikei-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

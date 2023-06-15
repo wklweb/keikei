@@ -1,0 +1,63 @@
+server:
+  port: 8081
+
+spring:
+  jackson:
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+  profiles:
+    active: druid
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+  redis:
+    port: 6379
+    database: 2
+    host: 127.0.0.1
+    timeout: 10s
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    sentinel:
+      master: mymaster
+      nodes: 127.0.0.1:26379,127.0.0.1:26380,127.0.0.1:26381
+  session:
+    store-type: redis
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: admin
+    publisher-confirm-type: correlated
+    publisher-returns: true
+
+logging:
+  level:
+    root: info
+
+token:
+  secret: abcdefghijklmnopqrstuvwxyz
+  expireTime: 30
+
+mybatis:
+  type-aliases-package: com.keikei.**.domain
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+
+
+keikei:
+  tryCount: 3
+  profile: D:/keikei/uploadPath
+  fileMaxSize: 15
+  fileNameLength: 30
+
+websocket:
+  enable: true
+  port: 9090
+
+
+

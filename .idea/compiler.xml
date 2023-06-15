@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="keikei-client" />
+        <module name="keikei-common" />
+        <module name="keikei-netty" />
+        <module name="keikei-system" />
+        <module name="keikei-server" />
+        <module name="keikei-framework" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="keikei-client" options="" />
+      <module name="keikei-common" options="" />
+      <module name="keikei-framework" options="" />
+      <module name="keikei-netty" options="" />
+      <module name="keikei-server" options="" />
+      <module name="keikei-system" options="" />
+    </option>
+  </component>
+</project>
